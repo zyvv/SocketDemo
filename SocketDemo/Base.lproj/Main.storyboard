@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点下面👇和一号建立连接" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rps-Nc-2g1">
+                                <rect key="frame" x="150" y="195" width="300" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="43c-sj-EUU"/>
+                                    <constraint firstAttribute="width" constant="300" id="MzX-v6-gXX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgM-0U-2UA">
+                                <rect key="frame" x="150" y="355" width="300" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="19P-Aw-rgH"/>
+                                    <constraint firstAttribute="width" constant="300" id="dNF-6f-05c"/>
+                                    <constraint firstAttribute="width" constant="100" id="vVA-iy-t3e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="发送消息给一号：vivi is a genius.">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="vVA-iy-t3e"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="sendMessageButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="78I-MX-C6F"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="屌起👐" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4y-mA-CaA">
+                                <rect key="frame" x="250.5" y="50" width="99" height="39.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="屌起👐" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcJ-Xy-una">
+                                <rect key="frame" x="250" y="530" width="99" height="39.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cj5-8U-sP2">
+                                <rect key="frame" x="150" y="275" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3VZ-7R-Tn5"/>
+                                    <constraint firstAttribute="width" constant="300" id="DfL-ys-jav"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="啊啊 开始和一号建立连接">
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" title="啊啊啊 已经和一号建立连接">
+                                    <color key="titleColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="connectButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RUH-56-joH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rps-Nc-2g1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1le-TZ-jL8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jcJ-Xy-una" secondAttribute="bottom" constant="30" id="2Pe-9T-Hod"/>
+                            <constraint firstItem="DgM-0U-2UA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3AD-wP-wKw"/>
+                            <constraint firstItem="cj5-8U-sP2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AaY-yY-73m"/>
+                            <constraint firstItem="m4y-mA-CaA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QSZ-u7-pmr"/>
+                            <constraint firstItem="DgM-0U-2UA" firstAttribute="top" secondItem="cj5-8U-sP2" secondAttribute="bottom" constant="50" id="W2f-Pq-saL"/>
+                            <constraint firstItem="m4y-mA-CaA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Zn0-XF-a8u"/>
+                            <constraint firstItem="jcJ-Xy-una" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iST-SG-aUt"/>
+                            <constraint firstItem="DgM-0U-2UA" firstAttribute="top" secondItem="cj5-8U-sP2" secondAttribute="bottom" constant="30" id="l2M-Ki-cU8"/>
+                            <constraint firstItem="cj5-8U-sP2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ot6-KL-xgv"/>
+                            <constraint firstItem="cj5-8U-sP2" firstAttribute="top" secondItem="rps-Nc-2g1" secondAttribute="bottom" constant="30" id="zzo-8u-wHK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="W2f-Pq-saL"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="connectButton" destination="cj5-8U-sP2" id="LqU-zz-H4i"/>
+                        <outlet property="messageLabel" destination="rps-Nc-2g1" id="VTp-Y2-GS4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="189"/>
+        </scene>
+    </scenes>
+</document>
