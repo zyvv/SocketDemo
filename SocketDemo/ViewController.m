@@ -49,7 +49,7 @@
             [strongSelf.socket emit:@"username" withItems:@[@"NO.1"]];
         }];
         
-        [_socket on:@"pong" callback:^(NSArray * array, SocketAckEmitter * emitter) {
+        [_socket on:@"ping" callback:^(NSArray * array, SocketAckEmitter * emitter) {
             __strong typeof(weakSelf)strongSelf = weakSelf;
             strongSelf.messageLabel.text = [NSString stringWithFormat:@"%@", [array firstObject]];
         }];
